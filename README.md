@@ -26,28 +26,151 @@ Antes de pedir para a IA "criar um app", é importante definir com clareza o que
 Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
 
 ```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+# PRD – Aplicativo de Organização de Finanças Pessoais Conversacional
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+## Contexto
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Quero criar um aplicativo de organização financeira que funcione por meio de conversas em linguagem natural.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+O objetivo é permitir que qualquer pessoa registre gastos, acompanhe metas e receba orientações financeiras sem precisar preencher planilhas ou navegar por telas complexas.
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+## Problema
+
+Muitas pessoas abandonam o controle financeiro porque as soluções disponíveis exigem preenchimento manual excessivo, possuem interfaces complexas ou não oferecem orientações personalizadas.
+
+Como consequência, usuários têm dificuldade para entender para onde o dinheiro está indo e como economizar.
+
+## Objetivo do Produto
+
+Simplificar o controle financeiro pessoal através de uma experiência conversacional intuitiva e acessível.
+
+O produto deve permitir que usuários iniciantes registrem suas movimentações financeiras em poucos segundos e recebam insights relevantes para melhorar seus hábitos financeiros.
+
+## Público-Alvo
+
+- Adultos entre 18 e 45 anos.
+- Pessoas sem conhecimento avançado em finanças.
+- Usuários que nunca utilizaram aplicativos financeiros ou que abandonaram soluções anteriores por complexidade.
+
+## Funcionalidades-Chave
+
+### 1. Registro de Gastos por Chat
+
+O usuário pode registrar transações utilizando linguagem natural.
+
+Exemplos:
+- "Gastei R$ 30 com almoço."
+- "Paguei R$ 120 de internet."
+- "Recebi R$ 2.500 de salário."
+
+### 2. Classificação Automática
+
+O sistema identifica e sugere categorias como:
+- Alimentação
+- Transporte
+- Moradia
+- Lazer
+- Saúde
+- Educação
+
+### 3. Metas Financeiras
+
+Permitir criar metas simples.
+
+Exemplo:
+- Guardar R$ 3.000 para uma viagem.
+- Economizar R$ 500 por mês.
+
+### 4. Agente Financeiro
+
+Assistente virtual responsável por:
+- Responder dúvidas básicas.
+- Identificar padrões de gastos.
+- Sugerir oportunidades de economia.
+- Incentivar hábitos financeiros saudáveis.
+
+### 5. Relatórios Simplificados
+
+Exibir:
+- Gastos por categoria.
+- Resumo mensal.
+- Evolução de despesas.
+- Progresso das metas financeiras.
+
+## MVP
+
+### Incluído
+
+- Chat conversacional.
+- Registro de receitas e despesas.
+- Classificação automática.
+- Metas financeiras.
+- Relatórios básicos.
+- Recomendações simples do agente financeiro.
+
+### Não Incluído
+
+- Integração bancária.
+- Open Finance.
+- Investimentos.
+- Leitura de recibos.
+- Planejamento tributário.
+
+## Principais Telas
+
+### Tela 1 – Chat Principal
+
+Permite interação com o Agente Financeiro e registro de movimentações.
+
+### Tela 2 – Resumo Financeiro
+
+Apresenta saldo, receitas, despesas e principais categorias.
+
+### Tela 3 – Metas
+
+Lista metas criadas e progresso atual.
+
+### Tela 4 – Relatórios
+
+Visualização simplificada dos gastos e tendências.
+
+### Tela 5 – Perfil e Configurações
+
+Preferências, categorias e notificações.
+
+## Métricas de Sucesso
+
+- 70% dos usuários registrarem pelo menos um gasto no primeiro dia.
+- 50% dos usuários retornarem após sete dias.
+- 30% dos usuários criarem ao menos uma meta financeira.
+- Média de cinco interações semanais com o Agente Financeiro.
+
+## Validação Inicial
+
+### Hipótese
+
+Usuários iniciantes preferem registrar gastos por conversa em vez de formulários tradicionais.
+
+### Experimento
+
+Disponibilizar um MVP para um grupo de 20 a 50 usuários.
+
+### Métricas Avaliadas
+
+- Facilidade de uso percebida.
+- Tempo para registrar uma transação.
+- Taxa de retenção após uma semana.
+- Satisfação com as recomendações fornecidas pelo agente.
+
+## Entregável Esperado da IA
+
+Gerar um plano de MVP contendo:
+- Fluxo principal do usuário.
+- Principais telas.
+- Recursos necessários.
+- Estratégia de validação inicial.
+
+Utilizar linguagem acessível, educativa e focada em usuários iniciantes.
 
 Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
 
